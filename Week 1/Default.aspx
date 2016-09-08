@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <hr/>
-    <h1>Hello World!</h1>
+    <asp:Label ID="Hello" runat="server" Text="Hello World!"></asp:Label>
     <p> This is my first web app using ASP.NET Web Forms</p>
     <hr/>
 </asp:Content>
